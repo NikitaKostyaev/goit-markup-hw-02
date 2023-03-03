@@ -1,0 +1,63 @@
+/* main text color #2E2F42 */
+/* secondary text color rgba(67, 68, 85, 1) */
+/* accent color #4D5AE5 */
+/* main background color #FFFFFF */
+/* secondary background color #F4F4FD */
+/* "WEB" logo color #4D5AE5 */
+/* "STUDIO" logo color #F4F4FD */
+/* hero/footer background color #2E2F42 */
+/* hero main text color #FFFFFF */
+/* footer main text color #E7E9FC */
+
+body {
+background-color: #FFFFFF;
+color: #2E2F42;
+font-family: 'Roboto', sans-serif; 
+}
+
+ul {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+color: #2E2F42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #4D5AE5;
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+color: #4D5AE5;
+}
+
+/* hero */
+
+.hero-title {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: #4D5AE5
+}
+
+/*  section */
+
+.section-title {;
+}
+
+.feature-list .text {
+    color: rgba(67, 68, 85, 1);
+}
+
