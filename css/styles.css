@@ -4,11 +4,12 @@
     --accent-color: #4D5AE5;
     --primary-white-color: #FFFFFF;
     --secondary-white-color: #F4F4FD;
+    --logo-color: #4D5AE5;
 }
 
 body {
 background-color: #FFFFFF;
-color: #2E2F42;
+color: #434455;
 font-family: 'Roboto', sans-serif; 
 }
 
@@ -18,12 +19,24 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.link {
+text-decoration: none;
+}
+
+.header-logo-item {
     color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
 }
 
 .header-link {
@@ -53,7 +66,7 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 
-/** -------------------------STUDIO------------------------- */
+/** -------------------------MAIN-PAGE------------------------- */
 /* --------------HERO-------------- */
 
 .hero {
@@ -229,7 +242,11 @@ color: var(--accent-color);
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--secondary-white-color);
+        color: var(--logo-color);
+}
+
+.footer-logo-item {
+    color: var(--secondary-white-color);
 }
 
 .footer-text {
