@@ -50,6 +50,7 @@ text-decoration: none;
 
 .header-link:hover,
 .header-link:focus {
+    font-style: normal;
 color: var(--secondary-accent-color);
 }
 
