@@ -53,11 +53,7 @@ text-decoration: none;
 color: var(--secondary-accent-color);
 }
 
-.adress {
-    font-style: normal;
-}
-
-.adress-link {
+.address-link {
     font-style: normal;
         font-size: 16px;
         line-height: 1.5;
@@ -65,8 +61,8 @@ color: var(--secondary-accent-color);
         color: var(--secondary-text-color);
 }
 
-.adress-link:hover,
-.adress-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--secondary-accent-color);
 }
 
