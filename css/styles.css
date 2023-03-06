@@ -50,13 +50,15 @@ text-decoration: none;
 
 .header-link:hover,
 .header-link:focus {
-    font-style: normal;
 color: var(--secondary-accent-color);
+}
+
+.adress {
+    font-style: normal;
 }
 
 .adress-link {
     font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -65,7 +67,6 @@ color: var(--secondary-accent-color);
 
 .adress-link:hover,
 .adress-link:focus {
-    font-style: normal;
     color: var(--secondary-accent-color);
 }
 
@@ -105,10 +106,6 @@ color: var(--secondary-accent-color);
 
 /* --------------ABOUT-------------- */
 
-.about {}
-
-.about-title {}
-
 .about-item-title {
     font-weight: 500;
         font-size: 20px;
@@ -126,8 +123,6 @@ color: var(--secondary-accent-color);
 
 /* --------------FUNCTIONS-------------- */
 
-.functions {}
-
 .functions-title {
     font-size: 36px;
         line-height: 1.11;
@@ -137,13 +132,8 @@ color: var(--secondary-accent-color);
         color: var(--primary-text-color);
 }
 
-.functions-list {}
-
-.functions-item {}
 
 /* --------------TEAM-------------- */
-
-.team {}
 
 .team-title {
     font-size: 36px;
@@ -153,12 +143,6 @@ color: var(--secondary-accent-color);
         text-transform: capitalize;
         color: var(--primary-text-color);
 }
-
-.team-list {}
-
-.team-list-item {}
-
-.team-img {}
 
 .team-img-name {
     font-weight: 500;
@@ -180,12 +164,6 @@ color: var(--secondary-accent-color);
 /** -------------------------PORTFOLIO------------------------- */
 /* --------------FILTERS-------------- */
 
-.filters {}
-
-.filters-list {}
-
-.filters-list-item {}
-
 .filters-btn {
     font-family: inherit;
     font-weight: 500;
@@ -206,14 +184,6 @@ color: var(--secondary-accent-color);
 }
 
 /* --------------PRODUCTS-------------- */
-
-.products {}
-
-.products-title {}
-
-.products-list {}
-
-.products-list-item {}
 
 .products-item-title {
     font-weight: 500;
