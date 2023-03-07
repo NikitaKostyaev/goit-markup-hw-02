@@ -53,8 +53,11 @@ text-decoration: none;
 color: var(--secondary-accent-color);
 }
 
-.address-link {
+.address {
     font-style: normal;
+}
+
+.address-link {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -158,19 +161,19 @@ color: var(--secondary-accent-color);
 }
 
 /** -------------------------PORTFOLIO------------------------- */
-/* --------------FILTERS-------------- */
+/* --------------PRODUCTS-------------- */
 
 .filters-btn {
     font-family: inherit;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: var(--accent-color);
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-accent-color);
+    cursor: pointer;
 }
 
 .filters-btn:hover,
@@ -178,8 +181,6 @@ color: var(--secondary-accent-color);
     background-color: var(--secondary-accent-color);
     color: var(--primary-white-color);
 }
-
-/* --------------PRODUCTS-------------- */
 
 .products-item-title {
     font-weight: 500;
