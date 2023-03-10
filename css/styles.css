@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 :root {
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
@@ -12,6 +16,7 @@ body {
 background-color: #FFFFFF;
 color: #434455;
 font-family: 'Roboto', sans-serif; 
+outline: 2px solid tomato;
 }
 
 /* --------------HEADER-------------- */
@@ -38,9 +43,42 @@ text-decoration: none;
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+img {
+    display: block;
+}
+
+.header-list {
+    display: flex;
 }
 
 .header-link {
+    display: block;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;   
@@ -53,11 +91,12 @@ text-decoration: none;
 color: var(--secondary-accent-color);
 }
 
-.address {
-    font-style: normal;
+.address-list {
+    display: flex;
 }
 
 .address-link {
+    display: block;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -94,7 +133,6 @@ color: var(--secondary-accent-color);
         letter-spacing: 0.04em;
         color: var(--primary-white-color);
         background-color: var(--primary-accent-color);
-        cursor: pointer;
 }
 
 .hero-btn:hover,
